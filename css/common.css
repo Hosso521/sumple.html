@@ -63,15 +63,17 @@ img {
     font-family: 'Cherry Bomb One', cursive;
 }
 
-@media (max-width: 800px){
-    .site-menu ul{
+@media (max-width: 800px) {
+    .site-menu ul {
         display: block;
         text-align: center;
     }
-    .site-menu li{
+
+    .site-menu li {
         margin-top: 20px;
     }
-    .header{
+
+    .header {
         position: fixed;
         top: 0;
         left: 0;
@@ -81,14 +83,15 @@ img {
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
-    .header-inner{
+
+    .header-inner {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
         position: relative;
     }
 
-    .header-logo{
+    .header-logo {
         width: 100px;
     }
 
@@ -104,26 +107,14 @@ img {
         display: none;
     }
 
-    .header-site-menu.is-show {
+    .header-site-menu.show{
         display: block;
     }
 
-    .main{
-        padding-top: 50px;
-    }
-
-    .footer-logo{
-        margin-top: 60px;
-    }
-
-    .copyright{
-        margin-top: 50px;
-    }
-
-    .toggle-menu-button {
+    .toggle-menu-button{
         display: block;
-        width: 44px;
-        height: 34px;
+        width: 44pt;
+        height: 34pt;
         background-image: url(../images/common/icon-menu.png);
         background-size: 50%;
         background-position: center;
@@ -132,6 +123,20 @@ img {
         border: none;
         border-radius: 0;
         outline: none;
+
+    }
+    
+
+    .main {
+        padding-top: 50px;;
+    }
+
+    .footer-logo {
+        margin-top: 60px;
+    }
+
+    .copyright {
+        margin-top: 50px;
     }
 }
 
@@ -152,7 +157,7 @@ img {
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
 }
